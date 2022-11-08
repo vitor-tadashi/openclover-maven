@@ -1,2 +1,0 @@
-processClover (  {"children":["br/com/tadashera/openclover/"],"name":"Clover database Mon Nov 7 2022 23:34:23 BRT","stats":{"AvgMethodComplexity":1,"Complexity":4,"ErroneousTests":0,"FailingTests":0,"FilteredElements":50,"PassingTests":0,"PcErroneousTests":-1,"PcFailingTests":-1,"PcPassingTests":-1,"TestExecutionTime":0,"Tests":0,"TotalChildren":1,"TotalPercentageCovered":57.14286,"TotalStatements":3,"UncoveredElements":3},"title":"openclover-maven 1.0-SNAPSHOT"}
- ); 
