@@ -39,9 +39,17 @@
           <contextFilters>try,static</contextFilters>
           <!-- In cases where you have System.exit -->
           <flushPolicy>threaded</flushPolicy>
+
+          <!-- Good for Executives - Dont Work with showLambdaFunctions -->
+          <!-- <generatePdf>true</generatePdf> -->
           <excludes>
             <exclude>**/ignore/*.java</exclude>
           </excludes>
+
+          <!-- For historical purpose -->
+          <generateHistorical>true</generateHistorical>
+          <historyDir>${user.home}/.clover/${project.groupId}-${project.artifactId}</historyDir>
+          <cloverDatabase>/Users/tadashera/dev/repo/clover.db</cloverDatabase>
         </configuration>
       </plugin>
     </plugins>
